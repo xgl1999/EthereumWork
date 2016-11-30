@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置以太坊方法名称，大小写敏感 -->
+<ethereuapp> 
+	<description>以太坊接口API名称配置文件</description>  
+	<methodsConfig> 
+		<ethereumRPC>http://192.168.0.3:8545/</ethereumRPC>
+		<eth_blockNumber>eth_blockNumber</eth_blockNumber>  
+		<eth_sendTransaction>eth_sendTransaction</eth_sendTransaction>  
+		<eth_getTransactionByHash>eth_getTransactionByHash</eth_getTransactionByHash>  
+		<eth_getTransactionReceipt>eth_getTransactionReceipt</eth_getTransactionReceipt>  
+		<eth_mining>eth_mining</eth_mining>  
+
+
+
+		<miner_start>miner_start</miner_start>  
+		<miner_stop>miner_stop</miner_stop>  
+
+		<admin_addPeer>admin_addPeer</admin_addPeer>  
+		<admin_nodeInfo>admin_nodeInfo</admin_nodeInfo>  
+		<admin_peers>admin_nodeInfo</admin_peers>  
+		
+		<personal_newAccount>personal_newAccount</personal_newAccount>  
+		<personal_unlockAccount>personal_unlockAccount</personal_unlockAccount>  
+		<personal_sendTransaction>personal_signAndSendTransaction</personal_sendTransaction>  
+		<personal_lockAccount>personal_lockAccount</personal_lockAccount>  
+		<personal_unlockAccount>personal_unlockAccount</personal_unlockAccount>  
+		<personal_listAccounts>personal_listAccounts</personal_listAccounts>  
+		<personal_importRawKey>personal_importRawKey</personal_importRawKey>  
+		
+		<txpool_content>txpool_content</txpool_content>  
+		<txpool_inspect>txpool_inspect</txpool_inspect>  
+		<txpool_status>txpool_status</txpool_status>  
+		
+	</methodsConfig> 
+</ethereuapp>
