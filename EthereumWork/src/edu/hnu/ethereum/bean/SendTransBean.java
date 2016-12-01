@@ -1,4 +1,4 @@
-package com.hnu.ethereum.bean;
+package edu.hnu.ethereum.bean;
 
 public class SendTransBean {
 	private String from = "0x391694e7e0b0cce554cb130d723a9d27458f9298"; 

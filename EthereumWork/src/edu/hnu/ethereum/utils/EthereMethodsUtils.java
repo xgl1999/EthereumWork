@@ -1,4 +1,4 @@
-package com.hnu.ethereum.utils;
+package edu.hnu.ethereum.utils;
 
 import java.io.File;
 
@@ -6,7 +6,7 @@ import org.dom4j.Document;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
-import com.hnu.ethereum.bean.EthereMethods;
+import edu.hnu.ethereum.bean.EthereMethods;
 
 public class EthereMethodsUtils {
 	public static final String METHODS_CONFIG_FILE_NAME = "ethereumethods.xml";	//以太坊接口方法名程

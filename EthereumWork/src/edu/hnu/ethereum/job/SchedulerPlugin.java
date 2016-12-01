@@ -1,4 +1,4 @@
-package com.hnu.ethereum.job;
+package edu.hnu.ethereum.job;
 
 import java.util.HashMap;
 import java.util.Map;

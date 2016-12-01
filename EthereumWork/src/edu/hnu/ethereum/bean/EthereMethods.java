@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.hnu.ethereum.bean;
+package edu.hnu.ethereum.bean;
 
 /**
  * @author semigo

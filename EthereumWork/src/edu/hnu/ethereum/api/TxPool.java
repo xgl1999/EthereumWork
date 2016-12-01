@@ -1,9 +1,9 @@
-package com.hnu.ethereum.api;
+package edu.hnu.ethereum.api;
 
-import com.hnu.ethereum.bean.EthereMethods;
-import com.hnu.ethereum.utils.EthereMethodsUtils;
-import com.hnu.ethereum.utils.HttpUtils;
-import com.hnu.ethereum.utils.ParamsJsonUtils;
+import edu.hnu.ethereum.bean.EthereMethods;
+import edu.hnu.ethereum.utils.EthereMethodsUtils;
+import edu.hnu.ethereum.utils.HttpUtils;
+import edu.hnu.ethereum.utils.ParamsJsonUtils;
 
 public class TxPool {
 	public TxPool(){}
@@ -27,14 +27,22 @@ public class TxPool {
 	 * @return
 	 */
 	public static String txPoolInspect(){
-		return null;
+		EthereMethods ethereMethods = EthereMethodsUtils.getEthMethods();
+		String url = ethereMethods.getEthereumRPC();
+		String params =ParamsJsonUtils.getParamsJson(ethereMethods.getTxpoolInspect(),"");
+		String jsonResult = HttpUtils.post(url, params);
+		return jsonResult;
 	}
 	/**
 	 * 查看当前未执行和队列中的等待处理的事务的个数
 	 * @return
 	 */
 	public static String txPoolStatus(){
-		return null;
+		EthereMethods ethereMethods = EthereMethodsUtils.getEthMethods();
+		String url = ethereMethods.getEthereumRPC();
+		String params =ParamsJsonUtils.getParamsJson(ethereMethods.getTxpoolStatus(),"");
+		String jsonResult = HttpUtils.post(url, params);
+		return jsonResult;
 		
 	}
 	

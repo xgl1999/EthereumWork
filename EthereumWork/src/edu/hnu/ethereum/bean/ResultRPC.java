@@ -1,8 +1,8 @@
-package com.hnu.ethereum.bean;
+package edu.hnu.ethereum.bean;
 
 import java.util.HashMap;
 
-import com.hnu.ethereum.utils.JsonUtils;
+import edu.hnu.ethereum.utils.JsonUtils;
 
 
 /**

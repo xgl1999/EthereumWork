@@ -1,4 +1,4 @@
-package com.hnu.ethereum.utils;
+package edu.hnu.ethereum.utils;
 
 import java.io.*;
 import java.nio.charset.Charset;

@@ -2,11 +2,10 @@
  * @author semigo
  *
  */
-package com.hnu.ethereum.common.config;
+package edu.hnu.ethereum.common.config;
 //import com.demo.blog.BlogController;
 //import com.demo.common.model._MappingKit;
 //import com.demo.index.IndexController;
-import com.hnu.ethereum.job.SchedulerPlugin;
 import com.jfinal.config.*;
 import com.jfinal.core.JFinal;
 
@@ -18,6 +17,8 @@ import com.jfinal.plugin.c3p0.C3p0Plugin;
 import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.plugin.ehcache.EhCachePlugin;
 import com.jfinal.render.ViewType;
+
+import edu.hnu.ethereum.job.SchedulerPlugin;
 public class EthConfig extends JFinalConfig{
 	static Log log = Log.getLog(EthConfig.class);
 	Routes routes;    

@@ -1,4 +1,4 @@
-package com.hnu.ethereum;
+package edu.hnu.ethereum;
 import com.jfinal.core.JFinal;
 
 

@@ -1,4 +1,4 @@
-package com.hnu.ethereum.utils;
+package edu.hnu.ethereum.utils;
 
 public class ParamsJsonUtils {
 
