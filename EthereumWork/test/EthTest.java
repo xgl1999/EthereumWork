@@ -14,7 +14,7 @@ import com.hnu.ethereum.api.TxPool;
 import com.hnu.ethereum.api.eth.EthMethod;
 import com.hnu.ethereum.bean.EthereMethods;
 import com.hnu.ethereum.bean.ResultRPC;
-import com.hnu.ethereum.bean.sendTransBean;
+import com.hnu.ethereum.bean.SendTransBean;
 import com.hnu.ethereum.utils.EthereMethodsUtils;
 import com.hnu.ethereum.utils.JsonUtils;
 import com.jfinal.log.Log;
@@ -36,7 +36,7 @@ public class EthTest {
      	
      	
    //	发起交易
-    /* 	sendTransBean sendBean = new sendTransBean();
+    /* 	SendTransBean sendBean = new SendTransBean();
      	sendBean.setFrom("0x97246717f947af64cfa89450feb23b23badf254b");
      	sendBean.setTo("0xd7bebc7669dabc9cb6df0343aba6a94654ce3e07");
      	sendBean.setValue(100);

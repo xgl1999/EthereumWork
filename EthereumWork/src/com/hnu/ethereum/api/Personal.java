@@ -6,7 +6,7 @@ package com.hnu.ethereum.api;
 import java.lang.reflect.Array;
 
 import com.hnu.ethereum.bean.EthereMethods;
-import com.hnu.ethereum.bean.sendTransBean;
+import com.hnu.ethereum.bean.SendTransBean;
 import com.hnu.ethereum.utils.EthereMethodsUtils;
 import com.hnu.ethereum.utils.HttpUtils;
 import com.hnu.ethereum.utils.JsonUtils;
@@ -57,7 +57,7 @@ public class Personal {
 	 * @param password
 	 * @return
 	 */
-	public static String sendTransaction(sendTransBean sendBean ,String password){
+	public static String sendTransaction(SendTransBean sendBean ,String password){
 		EthereMethods ethereMethods = EthereMethodsUtils.getEthMethods();
 		String url = ethereMethods.getEthereumRPC();
 		String p = JsonUtils.toJson(sendBean)+",\""+password+"\"";

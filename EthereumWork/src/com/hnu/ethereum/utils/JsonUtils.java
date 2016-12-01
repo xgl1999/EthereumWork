@@ -3,7 +3,7 @@ package com.hnu.ethereum.utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.hnu.ethereum.bean.sendTransBean;
+import com.hnu.ethereum.bean.SendTransBean;
 import com.jfinal.json.FastJson;
 import com.jfinal.json.JFinalJson;
 import com.jfinal.json.Json;
@@ -168,7 +168,7 @@ public final class JsonUtils {
 	}
 	
     public static void main(String[] args) {
-    	sendTransBean sendBean = new sendTransBean();
+    	SendTransBean sendBean = new SendTransBean();
      	sendBean.setFrom("0x97246717f947af64cfa89450feb23b23badf254b");
      	sendBean.setTo("0xd7bebc7669dabc9cb6df0343aba6a94654ce3e07");
      	sendBean.setValue(100);
